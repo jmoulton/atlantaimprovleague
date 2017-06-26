@@ -1,0 +1,26 @@
+<div class="container matches">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Upcoming Shows</h2>
+    </div>
+  </div>
+  <div class="upcoming-shows center-block">
+    <% count = 0 %>
+    <% data.shows.sort_by{|s| s[0]}.each do |show| %>
+      <% if show[1].scores.nil? && count < limit %>
+        <% count = count + 1 %>
+        <div class="col-md-6 col-lg-4 ">
+          <div class="match-box <%= show[1]['location'] %>">
+            <div class="names">
+              <% show[1].teams.each do |team| %>
+                <%= data.teams["#{team}"].name if data.teams["#{team}"]%><br/>
+              <% end %>
+              <%= show[1]['date'] %>
+            </div>
+            <a href="/shows/<%= show[0] %>/"><span></span></a>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

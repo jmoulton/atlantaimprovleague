@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<%= partial "partials/head" %>
+<body data-target=".navbar-fixed-top">
+  <div id="main">
+    <%= partial "partials/nav" %>
+    <section id="workshop" class="container content-section">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <h1><%= current_page.data.title %></h1>
+              <h3>with <%= current_page.data.teacher %></h3>
+              <p><em><%= current_page.data.time %> at 
+                <% if current_page.data.location %>
+                </em>
+                <strong>StriKing Office</strong> - <%= link_to "Directions", "/workshops/striking-directions.pdf"%> - <a href="https://goo.gl/maps/a72u3YiBu4T2" target="_blank">Map</a>
+                <em>
+                <% else %>
+                  The Village Theatre
+              <% end %>
+              </em><p>
+              <% if current_page.data.sold_out %>
+                <button class="btn btn-lg btn-danger" disabled>Sold out!</button>
+              <% elsif current_page.data.paypal %>
+                <p>
+                  <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'>
+                    <input type='hidden' name='cmd' value='_s-xclick'>
+                    <input type='hidden' name='hosted_button_id' value='<%= current_page.data.paypal %>'>
+                    <input class="btn btn-lg btn-default" name='submit' type='submit' value='Register Now!' />
+                    <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1'>
+                  </form>
+                </p>
+              <% end %>
+              <% if current_page.data.image && current_page.data.image != "" %>
+                <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/workshops/<%=current_page.data.image %>" title="<%= current_page.data.title %>" alt="<%= current_page.data.title %>"/></div>
+              <% end %>
+              <%= current_page.data.description %>
+              <% if current_page.data.bio %>
+                <%= partial "bios/#{current_page.data.bio}" %>
+              <% end %>
+              <% if current_page.data.bios %>
+                <% current_page.data.bios.each do |bio| %>
+                  <%= partial "bios/#{bio}" %>
+                <% end %>
+              <% end %>
+            </div>
+        </div>
+    </section>
+    <%= yield %>
+    <%= partial "partials/footer" %>
+  </div>
+    <%= partial "partials/bottom_js" %>
+  </body>
+</html>

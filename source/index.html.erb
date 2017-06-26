@@ -1,0 +1,13 @@
+---
+layout: "layout"
+---
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <%= partial "/partials/upcoming_shows", locals: {limit: 9} %>
+    <h3><%= link_to "Full Schedule Here", "/shows" %></h3>
+  </div>
+</header>
+
+<hr/>
+<%= partial "/partials/previous_shows" %>

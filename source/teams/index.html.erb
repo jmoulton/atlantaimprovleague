@@ -1,0 +1,21 @@
+---
+layout: "layout"
+title: "Teams"
+---
+<section id="teams" class="container content-section">
+  <% data.teams.each_with_index do |team, index| %>
+    <% if (index + 3) % 3 == 0 %>
+      <div class="row">
+    <% end %>
+        <div class="col-xs-12 col-md-4">
+          <div class="team-box">
+            <a href="/teams/<%= team[0] %>/">
+              <%= image_tag "teams/#{team[0]}/logo.png", alt: "#{team[1].name} logo", class: 'img-responsive' %>
+            </a>
+          </div>
+        </div>
+    <% if (index + 3) % 3 == 2 %>
+      </div>
+    <% end %>
+  <% end %>
+</section>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<%= partial "partials/head" %>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+          <% link_to '/index.html', :fragment => 'page-top', :class => 'navbar-brand page-scroll' do %>
+            <span class="blue"><i class="fa fa-star"></i> Atlanta</span> <span class="orange">Improv Festival</span>
+          <% end %>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+            <a href="#page-top"></a>
+            </li>
+            <li>
+            <%= link_to 'About', '/index.html', :fragment => 'about', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Shows', '/index.html', :fragment => 'shows', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Workshops', '/index.html', :fragment => 'workshops', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Battle', '/index.html', :fragment => 'battle', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'FAQs', '/index.html', :fragment => 'faqs', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Location', '/index.html', :fragment => 'location', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Sponsors', '/index.html', :fragment => 'sponsors', :class => "page-scroll" %>
+            </li>
+            <li>
+              <% link_to '/index.html', :fragment => 'tix', :class => "page-scroll" do %>
+                <i class="fa fa-ticket fa-lg"></i> Tix
+              <% end %>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    <!-- /.container -->
+    </nav>
+    <%= yield %>
+    <%= partial "partials/footer" %>
+    <%= partial "partials/bottom_js" %>
+  </body>
+</html>

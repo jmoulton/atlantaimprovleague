@@ -1,0 +1,10 @@
+---
+layout: "layout"
+title: "Shows"
+---
+<section id="upcoming-shows" class="container content-section">
+  <%= partial "/partials/upcoming_shows", locals: { limit: 1000 } %>
+  <h3><%= link_to "Full, printable schedule", "/schedule.pdf" %></h3>
+  <hr/>
+  <%= partial "/partials/previous_shows" %>
+</section>

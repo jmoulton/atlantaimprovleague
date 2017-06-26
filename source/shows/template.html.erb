@@ -1,0 +1,37 @@
+---
+layout: "layout"
+---
+<section id="bio" class="container content-section">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="show-title">
+        <h1>
+          <% show.teams.each_with_index do |team, index| %>
+            <%= data.teams["#{team}"].name %>
+            <%= " vs. " if index != 2 %>
+          <% end %>
+        </h1>
+        <h2><%= show.date %> at <% if show.location == "vt" %>Village Theatre<% else %>Highwire Comedy<% end %></h2>
+      </div>
+    </div>
+    <div class="col-xs-12 text-center">
+      <% if !show.tix.nil? && show.scores.nil? %>
+        <h2><%= link_to 'Buy Tickets Now', show.tix %></h2>
+      <% end %>
+    </div>
+  </div>
+  <div class="row">
+    <% show.teams.each_with_index do |team, index| %>
+        <div class="col-xs-12 col-md-4">
+          <div class="team-box">
+            <% unless show.scores.nil? %>
+              <h3><%= show.scores[index]["#{team}"] %> points</h3>
+            <% end %>
+            <a href="/teams/<%= team %>/">
+              <%= image_tag "teams/#{team}/logo.png", alt: "#{data.teams["#{team}"].name} logo", class: 'img-responsive' %>
+            </a>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</section>

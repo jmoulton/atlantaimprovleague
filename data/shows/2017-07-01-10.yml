@@ -1,0 +1,11 @@
+location: hw
+date: July 1 @ 10:00pm
+tix: http://highwirecomedy.com
+teams:
+  - tipsy-zone
+  - sarah-and-chris
+  - two-scoops-please
+scores:
+  - tipsy-zone: 40
+  - sarah-and-chris: 42
+  - two-scoops-please: 62

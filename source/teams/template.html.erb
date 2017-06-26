@@ -1,0 +1,31 @@
+---
+layout: "layout"
+---
+<section id="bio" class="container content-section">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1><%= team.name %></h1>
+      <%= image_tag "teams/#{id}/logo.png", alt: "#{team.name} logo", align: "right", class: "team-page-logo img-responsive" %>
+      <h2>Players</h2>
+      <p><%= team.members.join(", ") %></p>
+      <% if team.bio %>
+        <h2>Bio</h2>
+        <p><%= team.bio %></p>
+      <% end %>
+      <% if team.facebook || team.instagram || team.twitter %>
+        <h2>Social</h2>
+        <p>
+          <% if team.facebook %>
+            <a href="<%= team.facebook %>" title="<%= team.title %>" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a><br/>
+          <% end %>
+          <% if team.twitter %>
+            <a href="https://twitter.com/<%=team.twitter%>" title="<%=team.twitter%>" target="_blank"><i class="fa fa-twitter"></i> Twitter</a><br/>
+          <% end %>
+          <% if team.instagram %>
+            <a href="<%=team.instagram%>" title="<%=team.instagram%>" target="_blank"><i class="fa fa-instagram"></i> Instagram</a><br/>
+          <% end %>
+        </p>
+      <% end %>
+    </div>
+  </div>
+</section>
