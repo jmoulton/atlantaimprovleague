@@ -15,10 +15,22 @@ title: "ASPN - Action Show Programming Network"
   <h1 style="display:none">ASPN</h1>
   <p><a href="https://www.facebook.com/actionshow1">Action Show's</a> ASPN (Action Show Programming Network) takes you behind the scenes of the Atlanta Improv League with original live-stream programming, including their signature show, <em>#Midweek #Battlezone</em>, and post battle analysis.</p>
   <p>Want to be part of the show? Send interview requests, videos, or whatever you'd like to <a href="mailto:aspn@actionshow.tv">aspn@actionshow.tv</a>!</p>
-  <% data.aspn.each do |vid| %>
-    <div class="aspn-vid">
-      <div class="fb-video" data-href="<%= vid %>"  data-show-text="false">
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#midweek">#Midweek #Battlezone</a></li>
+    <li><a data-toggle="tab" href="#postbattle">#PostBattle #WrapUp</a></li>
+    <li><a data-toggle="tab" href="#segments">Segments</a></li>
+  </ul>
+  <div class="tab-content">
+    <% data.aspn.each_with_index do |section, index| %>
+      <div id="<%= section[0] %>" class="tab-pane fade in <%= "active" if index == 0 %>">
+        <% section[1].each do |vid| %>
+          <div class="aspn-vid">
+            <div class="fb-video" data-href="<%= vid %>"  data-show-text="false">
+            </div>
+          </div>
+        <% end %>
       </div>
-    </div>
     <% end %>
+  </div>
 </section>

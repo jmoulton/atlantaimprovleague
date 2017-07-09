@@ -387,3 +387,16 @@ h3 {
 .aspn-vid {
   margin: 15px;
 }
+
+#aspn li {
+  font-family: 'Graduate',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#aspn > ul > li.active > a {
+  background-color: rgba(255,255,255,0.1);
+  color: #F36E73;
+  text-shadow: 0px 0px 20px #FAC1C3;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+}
