@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="upcoming-shows center-block">
-    <% data.shows.sort_by{|s| s[0]}.each do |show| %>
+    <% data.shows.sort_by{|s| s[0]}.reverse.each do |show| %>
       <% unless show[1].scores.nil? %>
         <div class="col-md-6 col-lg-4 ">
           <div class="match-box done <%= show[1]['location'] %>">
