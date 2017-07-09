@@ -5,3 +5,7 @@ teams:
   - hip-hop-harold
   - gary-part-ii-son-of-gary
   - cinema-harold
+scores:
+  - hip-hop-harold: 75
+  - gary-part-ii-son-of-gary: 42
+  - cinema-harold: 51

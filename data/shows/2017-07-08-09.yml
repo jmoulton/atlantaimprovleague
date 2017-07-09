@@ -5,3 +5,7 @@ teams:
   - you-did-this
   - cardigan-party
   - group-therapy
+scores:
+  - you-did-this: 63
+  - cardigan-party: 52
+  - group-therapy: 65

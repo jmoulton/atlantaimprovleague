@@ -5,3 +5,7 @@ teams:
   - last-sleep-over
   - hot-buttered-popcorn
   - 20-chihuahuas
+scores:
+  - last-sleep-over: 16
+  - hot-buttered-popcorn: 12
+  - 20-chihuahuas: 8
