@@ -1,6 +1,11 @@
 location: vt
 date: July 15 @ 9:00pm
+tix: https://www.freshtix.com/events/atlanta-improv-league-9pm-7-15-17
 teams:
   - you-did-this
   - sarah-and-chris
   - red-pill-players
+scores:
+  - you-did-this: 25
+  - sarah-and-chris: 15
+  - red-pill-players: 20

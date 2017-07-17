@@ -1,6 +1,11 @@
 location: vt
 date: July 14 @ 11:00pm
+tix: https://www.freshtix.com/events/atlanta-improv-league-11pm-7-14-17
 teams:
   - tipsy-zone
   - pretty-much-sisters
   - 20-chihuahuas
+scores:
+  - tipsy-zone: 19
+  - pretty-much-sisters: 19
+  - 20-chihuahuas: 10

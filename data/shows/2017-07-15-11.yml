@@ -1,6 +1,11 @@
 location: vt
 date: July 15 @ 11:00pm
+tix: https://www.freshtix.com/events/atlanta-improv-league-11pm-7-15-17
 teams:
   - bouncers
   - hot-buttered-popcorn
   - cinema-harold
+scores:
+  - bouncers: 29
+  - hot-buttered-popcorn: 22
+  - cinema-harold: 15

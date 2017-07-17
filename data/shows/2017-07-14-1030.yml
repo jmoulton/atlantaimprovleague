@@ -1,6 +1,11 @@
 location: vt
 date: July 14 @ 10:30pm
+tix: https://www.freshtix.com/events/atlanta-improv-league-1030pm-7-14-17
 teams:
   - hip-hop-harold
   - cardigan-party
   - two-scoops-please
+scores:
+  - hip-hop-harold: 50
+  - cardigan-party: 41
+  - two-scoops-please: 32

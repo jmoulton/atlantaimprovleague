@@ -1,6 +1,11 @@
 location: vt
 date: July 13 @ 9:00pm
+tix: https://www.freshtix.com/events/atlanta-improv-league-9pm-7-13-17
 teams:
   - last-sleep-over
   - gary-part-ii-son-of-gary
   - group-therapy
+scores:
+  - last-sleep-over: 14
+  - gary-part-ii-son-of-gary: 8
+  - group-therapy: 8
