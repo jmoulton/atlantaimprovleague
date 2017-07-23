@@ -5,3 +5,7 @@ teams:
   - bouncers
   - gary-part-ii-son-of-gary
   - two-scoops-please
+scores:
+  - bouncers: 20
+  - gary-part-ii-son-of-gary: 27
+  - two-scoops-please: 25

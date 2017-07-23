@@ -5,3 +5,7 @@ teams:
   - tipsy-zone
   - hot-buttered-popcorn
   - group-therapy
+scores:
+  - tipsy-zone: 23
+  - hot-buttered-popcorn: 10
+  - group-therapy: 15

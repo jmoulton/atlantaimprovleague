@@ -5,3 +5,7 @@ teams:
   - last-sleep-over
   - cardigan-party
   - red-pill-players
+scores:
+  - last-sleep-over: 25
+  - cardigan-party: 18
+  - red-pill-players: 35

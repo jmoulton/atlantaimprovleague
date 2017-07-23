@@ -5,3 +5,7 @@ teams:
   - hip-hop-harold
   - sarah-and-chris
   - 20-chihuahuas
+scores:
+  - hip-hop-harold: 22
+  - sarah-and-chris: 17
+  - 20-chihuahuas: 9
