@@ -4,3 +4,7 @@ teams:
   - last-sleep-over
   - pretty-much-sisters
   - two-scoops-please
+scores:
+  - last-sleep-over: 67
+  - pretty-much-sisters: 74
+  - two-scoops-please: 51

@@ -5,3 +5,7 @@ teams:
   - bouncers
   - sarah-and-chris
   - group-therapy
+scores:
+  - bouncers: 29
+  - sarah-and-chris: 13
+  - group-therapy: 36

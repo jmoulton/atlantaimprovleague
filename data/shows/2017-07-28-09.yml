@@ -5,3 +5,7 @@ teams:
   - hip-hop-harold
   - hot-buttered-popcorn
   - red-pill-players
+scores:
+  - hip-hop-harold: 88
+  - hot-buttered-popcorn: 63
+  - red-pill-players: 77

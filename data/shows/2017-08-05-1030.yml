@@ -4,3 +4,7 @@ teams:
   - last-sleep-over
   - sarah-and-chris
   - cinema-harold
+scores:
+  - last-sleep-over: 42
+  - sarah-and-chris: 30
+  - cinema-harold: 36

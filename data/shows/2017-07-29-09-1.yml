@@ -5,3 +5,7 @@ teams:
   - tipsy-zone
   - cardigan-party
   - cinema-harold
+scores:
+  - tipsy-zone: 20
+  - cardigan-party: 10
+  - cinema-harold: 18

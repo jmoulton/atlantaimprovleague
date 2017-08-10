@@ -4,3 +4,7 @@ teams:
   - bouncers
   - cardigan-party
   - 20-chihuahuas
+scores:
+  - bouncers: 29
+  - cardigan-party: 21
+  - 20-chihuahuas: 10

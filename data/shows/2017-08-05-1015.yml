@@ -4,3 +4,7 @@ teams:
   - tipsy-zone
   - hip-hop-harold
   - you-did-this
+scores:
+  - tipsy-zone: 34
+  - hip-hop-harold: 36
+  - you-did-this: 26
