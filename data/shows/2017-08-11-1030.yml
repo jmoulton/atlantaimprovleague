@@ -5,3 +5,7 @@ teams:
   - red-pill-players
   - group-therapy
   - two-scoops-please
+scores:
+  - red-pill-players: 89
+  - group-therapy: 72
+  - two-scoops-please: 55

@@ -5,3 +5,7 @@ teams:
   - sarah-and-chris
   - pretty-much-sisters
   - hot-buttered-popcorn
+scores:
+  - sarah-and-chris: 20
+  - pretty-much-sisters: 38
+  - hot-buttered-popcorn: 20
