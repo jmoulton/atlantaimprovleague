@@ -5,3 +5,7 @@ teams:
   - 20-chihuahuas
   - cinema-harold
   - group-therapy
+scores:
+  - 20-chihuahuas: 25
+  - cinema-harold: 51
+  - group-therapy: 44

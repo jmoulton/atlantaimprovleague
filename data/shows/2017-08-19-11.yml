@@ -5,3 +5,7 @@ teams:
   - you-did-this
   - gary-part-ii-son-of-gary
   - two-scoops-please
+scores:
+  - you-did-this: 5
+  - gary-part-ii-son-of-gary: 9
+  - two-scoops-please: 4

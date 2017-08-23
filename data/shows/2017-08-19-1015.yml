@@ -5,3 +5,7 @@ teams:
   - bouncers
   - last-sleep-over
   - hip-hop-harold
+scores:
+  - bouncers: 29
+  - last-sleep-over: 31
+  - hip-hop-harold: 42

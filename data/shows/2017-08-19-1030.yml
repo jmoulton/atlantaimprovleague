@@ -5,3 +5,7 @@ teams:
   - cardigan-party
   - sarah-and-chris
   - pretty-much-sisters
+scores:
+  - cardigan-party: 16
+  - sarah-and-chris: 23
+  - pretty-much-sisters: 33

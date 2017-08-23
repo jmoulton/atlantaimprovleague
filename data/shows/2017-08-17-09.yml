@@ -5,3 +5,7 @@ teams:
   - tipsy-zone
   - hot-buttered-popcorn
   - red-pill-players
+scores:
+  - tipsy-zone: 5
+  - hot-buttered-popcorn: 11
+  - red-pill-players: 14
