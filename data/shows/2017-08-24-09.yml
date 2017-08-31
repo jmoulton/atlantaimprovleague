@@ -5,3 +5,7 @@ teams:
   - tipsy-zone
   - you-did-this
   - bouncers
+scores:
+  - tipsy-zone: 18
+  - you-did-this: 11
+  - bouncers: 13

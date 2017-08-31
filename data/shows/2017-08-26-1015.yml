@@ -5,3 +5,7 @@ teams:
   - red-pill-players
   - two-scoops-please
   - 20-chihuahuas
+scores:
+  - red-pill-players: 0
+  - two-scoops-please: 0
+  - 20-chihuahuas: 0

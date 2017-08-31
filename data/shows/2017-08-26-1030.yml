@@ -5,3 +5,7 @@ teams:
   - last-sleep-over
   - pretty-much-sisters
   - group-therapy
+scores:
+  - last-sleep-over: 23
+  - pretty-much-sisters: 18
+  - group-therapy: 13
