@@ -6,5 +6,5 @@ title: "Shows"
   <%= partial "/partials/upcoming_shows", locals: { limit: 1000 } %>
   <h3><%= link_to "Full, printable schedule", "/schedule.pdf" %></h3>
   <hr/>
-  <%= partial "/partials/previous_shows" %>
+  <%= partial "/partials/previous_shows", locals: { limit: 1000 } %>
 </section>
