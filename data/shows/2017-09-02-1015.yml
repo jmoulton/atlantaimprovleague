@@ -4,3 +4,7 @@ teams:
   - red-pill-players
   - cinema-harold
   - you-did-this
+scores:
+  - red-pill-players: 24
+  - cinema-harold: 13
+  - you-did-this: 23

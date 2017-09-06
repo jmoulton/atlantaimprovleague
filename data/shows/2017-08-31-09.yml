@@ -5,3 +5,7 @@ teams:
   - hip-hop-harold
   - sarah-and-chris
   - cinema-harold
+scores:
+  - hip-hop-harold: 42
+  - sarah-and-chris: 29
+  - cinema-harold: 25

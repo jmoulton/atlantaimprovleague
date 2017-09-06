@@ -4,3 +4,7 @@ teams:
   - tipsy-zone
   - last-sleep-over
   - 20-chihuahuas
+scores:
+  - tipsy-zone: 80
+  - last-sleep-over: 70
+  - 20-chihuahuas: 30

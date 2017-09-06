@@ -4,3 +4,7 @@ teams:
   - bouncers
   - hip-hop-harold
   - hot-buttered-popcorn
+scores:
+  - bouncers: 46
+  - hip-hop-harold: 56
+  - hot-buttered-popcorn: 42
